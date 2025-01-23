@@ -1,3 +1,13 @@
-p {
-  font-size: 3rem;
+@use '../../styles/vars';
+
+.nav {
+  .nav__list {
+    display: flex;
+    column-gap: 5.625rem;
+    font-weight: 600;
+
+    a {
+      color: vars.$secondaryColor;
+    }
+  }
 }
