@@ -1,0 +1,18 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+$fontFamily: 'Open Sans', sans-serif;
+$fontFamilySecond: 'Playfair Display', serif;
+
+// Colors
+$mainBackgroundColor: linear-gradient(137deg, #000 0%, #1c1c1c 100%);
+$footerBackgroundColor: rgba(255, 255, 255, 0.08);
+$textColor: #fff;
+$descColor: rgba(255, 255, 255, 0.63);
+
+// Font-size
+$fontSize: 1rem;
+
+// Setting up an adaptive grid | Налаштування адаптивної сітки
+$maxWidthContainer: 1550px;
+$containerPadding: 0 15px;
