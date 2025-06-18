@@ -11,21 +11,39 @@
 }
 
 html {
-  height: 100%;
+  min-height: 100%;
   background: vars.$mainBackgroundColor;
 }
 
 body {
   font-family: vars.$fontFamily;
   font-size: vars.$fontSize;
-  color: var(--textColor);
-  background-color: var(--bgColor);
+  color: vars.$textColor;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 14.6875rem;
+  padding-bottom: 9.375rem;
 }
 
 .container {
   max-width: vars.$maxWidthContainer;
   margin: 0 auto;
   padding: vars.$containerPadding;
+}
+
+.h2 {
+  font-family: vars.$fontFamilySecond;
+  font-size: 5rem;
+  line-height: 137%;
+  max-width: 51.875rem;
+}
+
+.desc {
+  line-height: 187%;
+  color: vars.$descColor;
 }
 
 .icon * {
