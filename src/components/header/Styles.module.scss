@@ -1,11 +1,10 @@
 @use '../../assets/styles/vars';
 
 .header {
-  position: absolute;
   display: flex;
-  justify-content: space-between;
   font-size: 2rem;
   color: black;
+  padding-top: 60px;
 }
 
 .menu {
@@ -13,20 +12,69 @@
   display: flex;
   gap: 90px;
   li {
+    align-items: center;
+    justify-content: center;
+    display: flex;
     a {
+      font-weight: 600;
+      font-family: vars.$fontFamily;
+      font-size: 16px;
       color: vars.$descColor;
-      text-decoration: underline;
     }
   }
 }
 
+.search {
+  position: relative;
+  column-gap: 387px;
+  display: flex;
+  font-size: 14px;
+  padding: 22px 0px;
+  margin-right: 80px;
+  border: 1px solid vars.$descColor;
+  border-radius: 90px;
+  input {
+    width: 600px;
+    &::placeholder {
+    padding-left: 42px;
+    font-style: italic;
+    }
+  }
+  img {
+    top: 16px;
+    position: absolute;
+    right: 35px;
+  }
+}
+
+.buttons {
+  display: flex;
+  column-gap: 30px;
+  img {
+    min-width: 33px;
+    min-height: 33px;
+  }
+}
+
 .nav {
+  padding-right: 127px;
   align-content: center;
 }
 
 .logo {
+  align-items: center;
+  justify-content: center;
   display: flex;
+  img {
+    width: 33px;
+    height: 33px;
+  }
   span {
+    font-size: 24px;
+    align-content: center;
+    padding-left: 15px;
+    padding-right: 90px;
+    font-family: vars.$fontFamilySecond;
     color: vars.$textColor;
   }
 }
