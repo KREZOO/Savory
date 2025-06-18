@@ -1,0 +1,32 @@
+@use '../../assets/styles/vars';
+
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  color: black;
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  gap: 90px;
+  li {
+    a {
+      color: vars.$descColor;
+      text-decoration: underline;
+    }
+  }
+}
+
+.nav {
+  align-content: center;
+}
+
+.logo {
+  display: flex;
+  span {
+    color: vars.$textColor;
+  }
+}

@@ -10,6 +10,11 @@
   display: none;
 }
 
+html {
+  height: 100%;
+  background: vars.$mainBackgroundColor;
+}
+
 body {
   font-family: vars.$fontFamily;
   font-size: vars.$fontSize;
