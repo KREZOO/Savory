@@ -9,10 +9,11 @@ $mainBackgroundColor: linear-gradient(137deg, #000 0%, #1c1c1c 100%);
 $footerBackgroundColor: rgba(255, 255, 255, 0.08);
 $textColor: #fff;
 $descColor: rgba(255, 255, 255, 0.63);
+$imgBgColor: #c4c4c4;
 
 // Font-size
 $fontSize: 1rem;
 
 // Setting up an adaptive grid | Налаштування адаптивної сітки
-$maxWidthContainer: 1550px;
-$containerPadding: 0 15px;
+$maxWidthContainer: 96.875rem;
+$containerPadding: 0 0.9375rem;

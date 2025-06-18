@@ -1,0 +1,132 @@
+@use '../../assets/styles/_vars.scss';
+
+.featuredDishes {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4375rem;
+  height: 49.375rem;
+
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 1rem;
+
+    .desc {
+      align-self: end;
+      max-width: 22.8125rem;
+    }
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+    gap: 7.5rem;
+
+    .service {
+      display: flex;
+      align-items: center;
+      gap: 5rem;
+
+      .badge {
+        display: flex;
+        flex-direction: column;
+        gap: 2.625rem;
+        padding: 2.625rem;
+        max-width: 19.25rem;
+        height: fit-content;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 1.4375rem;
+        backdrop-filter: blur(2.5rem);
+        background: vars.$footerBackgroundColor;
+
+        .badgeTitle {
+          font-size: 1.5rem;
+          line-height: 154%;
+        }
+
+        .badgeIcon {
+          align-self: center;
+          height: 9.125rem;
+          width: 9.125rem;
+        }
+      }
+
+      .badgeImg {
+        border-radius: 1.875rem;
+        width: 35.625rem;
+        height: 35rem;
+        background: vars.$imgBgColor;
+      }
+    }
+
+    .recomm {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 26.625rem;
+      height: 27.625rem;
+      align-self: flex-end;
+
+      .recommTitle {
+        font-family: vars.$fontFamilySecond;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 162%;
+        max-width: 18.75rem;
+      }
+
+      .recommDesc {
+        display: flex;
+        gap: 2.5rem;
+        align-self: flex-end;
+
+        .icon {
+          align-self: flex-start;
+          padding-top: 0.5rem;
+        }
+
+        p {
+          max-width: 14.6875rem;
+        }
+      }
+
+      .avatarsSection {
+        display: flex;
+        align-items: center;
+        gap: 3.75rem;
+        max-height: 4rem;
+
+        .avatars {
+          display: flex;
+          position: relative;
+
+          img {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 100%;
+            border: 1px solid #000;
+            object-fit: cover;
+            position: relative;
+            z-index: 1;
+
+            &:not(:first-child) {
+              margin-left: -1rem;
+            }
+          }
+        }
+
+        .stats {
+          display: flex;
+          flex-direction: column;
+          gap: 0.625rem;
+
+          .statsNumber {
+            font-size: 2rem;
+            line-height: 94%;
+          }
+        }
+      }
+    }
+  }
+}
