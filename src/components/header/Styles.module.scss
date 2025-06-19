@@ -25,6 +25,7 @@
 }
 
 .search {
+  color: vars.$textColor;
   position: relative;
   column-gap: 387px;
   display: flex;
@@ -34,9 +35,9 @@
   border: 1px solid vars.$descColor;
   border-radius: 90px;
   input {
+    padding-left: 42px;
     width: 600px;
     &::placeholder {
-    padding-left: 42px;
     font-style: italic;
     }
   }
