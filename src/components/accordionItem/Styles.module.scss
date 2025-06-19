@@ -1,0 +1,40 @@
+@use '../../assets/styles/vars';
+
+.accordionItem {
+  backdrop-filter: blur(2.5rem);
+  background: rgba(255, 255, 255, 0.08);
+  color: vars.$textColor;
+  border-radius: 1.4375rem;
+  padding: 2.5rem 3.125rem;
+  transition: background 0.3s ease;
+  width: 45.3125rem;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 125%;
+    font-family: vars.$fontFamilySecond;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 0;
+
+    .icon {
+      width: 1.125rem;
+      height: 1.125rem;
+    }
+  }
+
+  .content {
+    margin-top: 2.5rem;
+  }
+
+  &.open {
+    background: #2a2a2a;
+  }
+}
