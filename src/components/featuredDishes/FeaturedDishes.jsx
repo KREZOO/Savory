@@ -53,8 +53,10 @@ const FeaturedDishes = () => {
                 <img src='/images/ava-01.png' alt='User 1' />
                 <img src='/images/ava-02.png' alt='User 2' />
                 <img src='/images/ava-03.png' alt='User 3' />
-                <img src='/images/ava-03.png' alt='User 4' />
+                <img src='/images/ava-01.png' alt='User 4' />
+                <img src='/images/ava-02.png' alt='User 5' />
               </div>
+
               <div className={Styles.stats}>
                 <p className={Styles.statsNumber}>75+</p>
                 <span className='desc'>Trusted Clients</span>
