@@ -1,0 +1,194 @@
+@use '../../assets/styles/_vars.scss';
+
+.hero{
+    display: flex;
+    width: 100%;
+}
+.leftColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+}
+.preview {
+    display: flex;
+    flex-direction: column;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    img{
+        max-height: 30px;
+    }
+    p{
+        padding-left: 53px;
+        max-width: 450px;
+    }
+}
+.h3 {
+    font-family: vars.$fontFamilySecond;
+    font-size: 20px;
+}
+.h1 {
+    font-family: vars.$fontFamilySecond;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 162%;
+}
+.span01 {
+    width: fit-content;
+    border: 1px solid vars.$descColor;
+    padding: 6px 20px;
+    border-radius: 30px;
+}
+.span02 {
+    width: fit-content;
+    border: 1px solid vars.$descColor;
+    padding: 12px 20px;
+    border-radius: 7px;
+}
+.getStarted {
+    display: flex;
+    gap: 47px;
+    align-items: center;
+}
+.play {
+    width: 30px;
+    height: 30px;
+}
+.watch {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.previewImg {
+    width: 690px;
+    height: 713px;
+    background: vars.$imgBgColor;
+}
+.previewImgDesc {
+    padding-top: 53px;
+    display: flex;
+    gap: 238px;
+    font-size: 20px;
+    font-family: vars.$fontFamilySecond;
+}
+.previewBanner01 {
+    padding: 19px 24px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 950px;
+    top: 900px;
+    border: 1px solid vars.$descColor;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(41px);
+}
+.previewBanner02 {
+    padding: 19px 24px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 1500px;
+    top: 425px;
+    border: 1px solid vars.$descColor;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(41px);
+}
+.imgInner01 {
+
+}
+.imgInner02 {
+    
+}
+.imgBanner01 {
+    padding: 14px;
+    border: 1px solid vars.$descColor;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.imgBanner02 {
+    padding: 14px;
+    border: 1px solid vars.$descColor;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.bannerDesc01 {
+    padding-left: 29px;
+    font-family: vars.$fontFamilySecond;
+    font-size: 20px;
+}
+.bannerDesc02 {
+    padding-left: 29px;
+    font-family: vars.$fontFamilySecond;
+    font-size: 20px;
+}
+.icon02 {
+    padding: 18px;
+    border: 1px solid vars.$descColor;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 675px;
+    left: 825px;
+}
+.icon03 {
+    padding: 8px 10px;
+    border: 1px solid vars.$descColor;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+.icon04 {
+    padding: 15px;
+    position: absolute;
+    border: 1px solid vars.$descColor;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    top: 1210px;
+    left: 800px;
+}
+.scroll {
+
+}
+.scrollDesc {
+    font-family: vars.$fontFamily;
+    font-weight: 300;
+    line-height: 2;
+    position: absolute;
+    top: 1210px;
+    left: 725px;
+}
+.foodPhotoServices {
+    align-items: center;
+    width: 459px;
+    height: 197px;
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 23px;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+.foodPhotoServicesDesc {
+    padding-left: 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+}
+.more {
+    align-items: center;
+    display: flex;
+    gap: 106px;
+}
+.smallPreviewImg {
+    margin-left: 24px;
+    border-radius: 23px;
+    width: 139px;
+    height: 158px;
+    background: vars.$imgBgColor;
+}
