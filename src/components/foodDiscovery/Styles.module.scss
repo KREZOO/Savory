@@ -1,0 +1,44 @@
+@use '../../assets/styles/vars';
+
+.foodDiscovery {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 9.375rem;
+
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .desc {
+      display: flex;
+      flex-direction: column;
+      gap: 2.375rem;
+      max-width: 22.8125rem;
+      align-self: end;
+
+      a {
+        color: vars.$textColor;
+      }
+    }
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+
+    .illustration {
+      border-radius: 1.875rem;
+      width: 42.75rem;
+      height: 44.5rem;
+      background-color: vars.$imgBgColor;
+    }
+
+    .questions {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+  }
+}

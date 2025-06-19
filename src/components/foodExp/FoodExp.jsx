@@ -1,5 +1,6 @@
 import cn from 'classnames';
 import Styles from './Styles.module.scss';
+import TipsItem from './TipsItem';
 
 const FoodExp = () => {
   return (
@@ -14,21 +15,19 @@ const FoodExp = () => {
 
       <main className={Styles.main}>
         <div className={Styles.tips}>
-          <div className={Styles.tipsItem}>
-            <span>02</span>
-            <p className='desc'>
-              Create your own recipes by mixing and matching ingredients with
-              real-time suggestions.
-            </p>
-          </div>
+          <TipsItem
+            num='02'
+            desc='Create your own recipes by mixing and matching ingredients with
+              real-time suggestions.'
+            className={Styles.tipsItem}
+          />
 
-          <div className={cn(Styles.tipsItem, Styles.tipsItem2)}>
-            <span>01</span>
-            <p className='desc'>
-              Explore articles on kitchen hacks, food trends, and tips to
-              enhance your cooking.
-            </p>
-          </div>
+          <TipsItem
+            num='01'
+            desc='Explore articles on kitchen hacks, food trends, and tips to
+              enhance your cooking.'
+            className={cn(Styles.tipsItem, Styles.tipsItem2)}
+          />
 
           <div className={Styles.tipsTegs}>
             <span>Food</span>
@@ -36,9 +35,9 @@ const FoodExp = () => {
             <span>Catering</span>
           </div>
 
-          <div className={Styles.tipsIcon}>
+          <button className={Styles.tipsIcon}>
             <img src='/icons/shopping-bag.svg' alt='shopping-bag' />
-          </div>
+          </button>
         </div>
 
         <div className={Styles.illustration}></div>
