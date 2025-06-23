@@ -7,7 +7,7 @@
 .leftColumn {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 70px;
 }
 .rightColumn {
     display: flex;
@@ -52,6 +52,8 @@
     border-radius: 7px;
 }
 .getStarted {
+    margin-top: -80px;
+    padding-left: 150px;
     display: flex;
     gap: 47px;
     align-items: center;
@@ -84,9 +86,9 @@
     align-items: center;
     left: 950px;
     top: 900px;
-    border: 1px solid vars.$descColor;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0.009);
     backdrop-filter: blur(41px);
 }
 .previewBanner02 {
@@ -96,10 +98,11 @@
     align-items: center;
     left: 1500px;
     top: 425px;
-    border: 1px solid vars.$descColor;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0.009);
     backdrop-filter: blur(41px);
+    width: 275px;
 }
 .imgInner01 {
 
@@ -151,8 +154,8 @@
     border: 1px solid vars.$descColor;
     border-radius: 100%;
     background-color: rgba(255, 255, 255, 0.1);
-    top: 1210px;
-    left: 800px;
+    top: 1150px;
+    left: 775px;
 }
 .scroll {
 
@@ -162,8 +165,8 @@
     font-weight: 300;
     line-height: 2;
     position: absolute;
-    top: 1210px;
-    left: 725px;
+    top: 1150px;
+    left: 700px;
 }
 .foodPhotoServices {
     align-items: center;
