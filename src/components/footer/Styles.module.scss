@@ -1,0 +1,134 @@
+@use "../../assets/styles/vars";
+
+.footer {
+  padding-top: 105px;
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+  flex-direction: column;
+  gap: 154px;
+  background: vars.$footerBackgroundColor;
+  backdrop-filter: blur(41px);
+}
+
+.footerUpper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footerLower {
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+  justify-content: space-between;
+  span {
+    display: block;
+    padding-top: 58px;
+    padding-bottom: 93px;
+    font-family: vars.$fontFamily;
+    font-size: 16px;
+    font-weight: 300;
+    color: vars.$descColor;
+  }
+  img {
+    padding-top: 54px;
+    padding-bottom: 93px;
+    margin-right: 10px;
+  }
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+}
+.infoWrap {
+  display: flex;
+  align-self: end;
+}
+.footerDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  h3 {
+    font-family: vars.$fontFamilySecond;
+    font-weight: 600;
+    font-size: 24px;
+    color: vars.$textColor;
+  }
+  p {
+    font-family: vars.$fontFamily;
+    font-weight: 300;
+    font-size: 16px;
+    color: vars.$descColor;
+  }
+}
+.subDesc {
+  width: 194px;
+  padding-bottom: 90px;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+}
+.socialIcon {
+  display: flex;
+  width: 54px;
+  height: 54px;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: vars.$textColor;
+  padding: 16px;
+  img {
+    z-index: 2;
+  }
+}
+.subsription {
+  display: flex;
+  gap: 32px;
+}
+.input {
+  width: 290px;
+  padding: 18px 22px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1.33px solid rgba(255, 255, 255, 0.27);
+  border-radius: 11px;
+}
+.subscribe {
+  padding: 18px 50px;
+  color: black;
+  background-color: vars.$textColor;
+  border-radius: 11px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  a {
+    color: vars.$descColor;
+  }
+  h3 {
+    font-family: vars.$fontFamily;
+    font-size: 20px;
+    font-weight: 400;
+    color: vars.$textColor;
+  }
+  p {
+    font-family: vars.$fontFamily;
+    font-size: 16px;
+    font-weight: 300;
+    color: vars.$descColor;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: vars.$fontFamily;
+    font-size: 16px;
+    font-weight: 300;
+    color: vars.$descColor;
+  }
+}

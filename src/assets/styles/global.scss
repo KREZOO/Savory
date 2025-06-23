@@ -1,5 +1,5 @@
-@use 'reset';
-@use 'vars';
+@use "reset";
+@use "vars";
 
 // Theme variables
 :root {
@@ -25,7 +25,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 14.6875rem;
-  padding-bottom: 9.375rem;
 }
 
 .container {

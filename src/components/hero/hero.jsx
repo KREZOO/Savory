@@ -10,13 +10,13 @@ const Hero = () => {
                     <img src='/icons/arrow-right-03.svg' className={Styles.icon01} alt='arrow-right'></img>
                     <p className='desc'>Unleash your inner chef and dive into a world of exceptional flavors. Discover the perfect blend of modern culinary techniques.</p>
                 </div>
-                <img src='/icons/shopping-bag.svg' className={Styles.icon02} alt='shopping-bag'></img>
+                <button><img src='/icons/shopping-bag.svg' className={Styles.icon02} alt='shopping-bag'></img></button>
                 <div className={Styles.getStarted}>
-                    <span className={Styles.span02}>Get Started</span>
-                    <div className={Styles.watch}>
+                    <button className={Styles.span02}>Get Started</button>
+                    <button className={Styles.watch}>
                         <img src='/icons/hero/motion-play.svg' className={Styles.play} alt='play'></img>
                         <p>Watch a Video</p>
-                    </div>
+                    </button>
                 </div>
                 <div className={Styles.foodPhotoServices}>
                     <div className={Styles.smallPreviewImg}></div>
@@ -24,7 +24,7 @@ const Hero = () => {
                         <h3 className={Styles.h3}>Food Photography <br></br> Services</h3>
                         <div className={Styles.more}>
                             <p>Learn More</p>
-                            <img src='/icons/arrow-right.svg' className={Styles.icon03} alt='arrow-right'></img>
+                            <button><img src='/icons/arrow-right.svg' className={Styles.icon03} alt='arrow-right'></img></button>
                         </div>
                     </div>
                 </div>
@@ -33,8 +33,7 @@ const Hero = () => {
                         <p>Scroll</p>
                         <p>Down</p>
                     </div>
-                    
-                    <img src='/icons/hero/double-arrow-down.svg' className={Styles.icon04} alt='double-arrow-down'></img>
+                    <button><img src='/icons/hero/double-arrow-down.svg' className={Styles.icon04} alt='double-arrow-down'></img></button>
                 </div>
                 
             </div>
